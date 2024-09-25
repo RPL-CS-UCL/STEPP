@@ -242,7 +242,7 @@
     <div class="column is-centered has-text-centered">
       <img src="./resources/pre_train_pipeline_2.png" alt="Description of the image" style="max-width: 80%; border: 1px solid #bbbbbb; border-radius: 10px;">
     </div>
-    <p></p>
+    <p>Our training pipeline is designed to predict terrain traversability using visual features extracted from images. We calculate the future poses projections in each image frame and segment the image. We leverage the DINOv2 vision transformer model to generate dense, pixel-wise feature embeddings from image frames. These embeddings are spatially aligned with each specific terrain segment containing the path. Each segment mapped to the feature embedding is then averaged across all channels producing a 384-dimensional vector. An encoder-decoder MLP architecture learns to reconstruct the averaged features vectors with the reconstruction loss being the traversability score.</p>
   </div>
 </section>
 
