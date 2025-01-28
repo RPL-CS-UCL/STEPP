@@ -1,2 +1,2 @@
 # STEPP
-Watch your STEPP: Semantic Traversibility Estimation using Pose Projected Features 
+Watch your STEPP: Semantic Traversability Estimation using Pose Projected Features 
